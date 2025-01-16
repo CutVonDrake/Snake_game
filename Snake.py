@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[30]:
+# In[7]:
 
 
 import pygame
@@ -9,7 +9,7 @@ import sys
 import random
 
 
-# In[33]:
+# In[8]:
 
 
 colors = ["blue", "green", "yellow", "orange", "purple", "pink", "black", "white", "gray", "brown", "cyan", "magenta"]
@@ -22,6 +22,7 @@ elif color_background== 'psycho':
     color=color_background
 else:
     psycho='none'
+    color=color_background
 
 if psycho=='psycho':
     color_snake='psycho'
@@ -35,7 +36,7 @@ else:
 
 
 
-# In[32]:
+# In[9]:
 
 
 pygame.init()
